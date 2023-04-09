@@ -1,6 +1,6 @@
 import React from "react";
 
-const CategoryForm = ({handleSubmit,value,setValue}) => {
+const CategoryForm = ({ handleSubmit, value, setValue }) => {
   return (
     <>
       <form on onSubmit={handleSubmit}>
@@ -10,7 +10,7 @@ const CategoryForm = ({handleSubmit,value,setValue}) => {
             className="form-control"
             placeholder="Enter new category"
             value={value}
-            onChange={(e)=>setValue(e.target.value)}
+            onChange={(e) => setValue(e.target.value)}
             aria-describedby="emailHelp"
           />
         </div>
@@ -21,5 +21,5 @@ const CategoryForm = ({handleSubmit,value,setValue}) => {
     </>
   );
 };
-
+// test
 export default CategoryForm;
